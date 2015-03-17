@@ -1,6 +1,6 @@
 'use strict';
 
-var collect_same_elements = require("../../practices/section_1/practice_1/practice.js");
+var calculate_elements_sum = require("../../practices/reduce/calculateSum.js");
 
 describe('practice-1-1', function() {
 
