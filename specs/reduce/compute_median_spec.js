@@ -14,7 +14,7 @@ describe('compute_median', function () {
 
   it('计算给定偶数数字集合的中位数', function () {
 
-    var result = compute_median(collection_);
+    var result = compute_median(collection_b);
     expect(result).toEqual(1.5);
   })
 });
