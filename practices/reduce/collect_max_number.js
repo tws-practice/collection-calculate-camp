@@ -1,3 +1,7 @@
-/**
- * Created by zhzhang on 3/17/15.
- */
+'use strict';
+
+function collect_max_number(collection_a) {
+  //在这里写入代码
+}
+
+module.exports = collect_max_number;
