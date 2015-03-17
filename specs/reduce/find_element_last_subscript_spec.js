@@ -10,6 +10,6 @@ describe('find_element_last_subscript', function() {
   it('找出某元素在给定集合中的最后一个下标', function() {
     var result = find_element_last_subscript(collection, element);
 
-    expect(result).toEqual(4);
+    expect(result).toEqual(7);
   });
 });
