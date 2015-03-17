@@ -1,6 +1,6 @@
 var create_updated_collection = require("../../practices/section_3/practice_2/practice.js");
 
-describe('practice-3-2', function() {
+xdescribe('practice-3-2', function() {
 
   var collection_a = [
     {key: "a", count: 3},
