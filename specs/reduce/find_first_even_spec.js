@@ -1,14 +1,14 @@
 'use strict';
 
-var compute_elements_sum = require('../../practices/reduce/find_first_even_spec.js');
+var find_first_even = require('../../practices/reduce/find_first_even.js');
 
-describe('compute_elements_sum', function() {
+describe('find_first_even', function() {
 
-  var collection_a = [1, 2, 3, 4, 5];
+  var collection = [1,11,27,20,4,9,15];
 
   it('计算给定集合元素的总和', function() {
-    var result = compute_elements_sum(collection_a);
+    var result = find_first_even(collection);
 
-    expect(result).toEqual(15);
+    expect(result).toEqual(20);
   });
 });
