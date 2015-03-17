@@ -8,8 +8,7 @@ describe('choose_multiples_of_three', function() {
 
   it('应该从collection中选出3的倍数', function() {
 
-    var result;
-    result = choose_multiples_of_three(collection);
+    var result = choose_multiples_of_three(collection);
 
     expect(result).toEqual([0, 3, 6, 9]);
   })
