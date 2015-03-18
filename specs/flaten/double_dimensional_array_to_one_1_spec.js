@@ -1,6 +1,6 @@
 'use strict';
 
-var double_to_one = require("../../practices/filter/double_dimensional_array_to_one.js");
+var double_to_one = require("../../practices/filter/double_dimensional_array_to_one_1.js");
 
 descirbe('double_to_one', function() {
 
