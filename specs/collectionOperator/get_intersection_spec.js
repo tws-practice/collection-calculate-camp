@@ -6,7 +6,7 @@ describe('get_intersection', function () {
 
   var collection_a = [10, 27, 28, 19, 5];
   var collection_b = [5, 78, 28, 19, 23];
-  var collection_c = [5, 28];
+  var collection_c = [5, 28, 19];
 
   it('弹出两个集合的交集', function() {
 
