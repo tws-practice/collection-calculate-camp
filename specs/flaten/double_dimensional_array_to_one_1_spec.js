@@ -1,8 +1,8 @@
 'use strict';
 
-var double_to_one = require("../../practices/filter/double_dimensional_array_to_one_1.js");
+var double_to_one = require("../../practices/flaten/double_dimensional_array_to_one_1.js");
 
-descirbe('double_to_one', function() {
+describe('double_to_one', function() {
 
   var collection = [1, [2], [3, 4]];
 
