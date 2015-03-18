@@ -1,6 +1,6 @@
 'use strict';
 
-var average_uneven = require("../../practices/superposition_operation/interval_operation/average_uneven.js");
+var average_uneven = require("../../../practices/superposition_operation/interval_operation/average_uneven.js");
 
 describe('average_uneven', function() {
 

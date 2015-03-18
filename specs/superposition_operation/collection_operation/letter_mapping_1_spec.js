@@ -1,6 +1,6 @@
 'use strict';
 
-var even_to_letter = require("../../practices/superposition_operation/collection_operation/letter_mapping.js");
+var even_to_letter = require("../../../practices/superposition_operation/collection_operation/letter_mapping_1.js");
 
 describe('even_to_letter', function() {
 

@@ -1,6 +1,6 @@
 'use strict';
 
-var hybrid_operation_to_uneven = require("../../practices/superposition_operation/collection_operation/practice_2.js");
+var hybrid_operation_to_uneven = require("../../../practices/superposition_operation/collection_operation/practice_2.js");
 
 describe('hybrid_operation_to_uneven', function() {
 
