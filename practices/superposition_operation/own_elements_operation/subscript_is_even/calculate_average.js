@@ -1,3 +1,5 @@
-/**
- * Created by fgcui on 3/18/15.
- */
+'use strict';
+var calculate_average = function(collection){
+
+};
+module.exports = calculate_average;
