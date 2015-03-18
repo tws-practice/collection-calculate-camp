@@ -1,3 +1,7 @@
-/**
- * Created by zhzhang on 3/18/15.
- */
+'use strict';
+
+function compute_chain_median(collection) {
+  //在这里写入代码
+}
+
+module.exports = compute_chain_median;
