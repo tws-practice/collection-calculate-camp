@@ -1,6 +1,6 @@
 'use strict';
 
-var get_integer_interval = require('../../practices/reduce/get_integer_interval_spec.js');
+var get_integer_interval = require('../../practices/collectionOperator/get_integer_interval.js');
 
 describe('get_integer_interval', function () {
 
@@ -8,7 +8,7 @@ describe('get_integer_interval', function () {
   var max = 5;
   var collection = [1, 2, 3, 4, 5];
 
-  it('选出给定数字集合元素的最大值', function() {
+  it('通过给定数字确定区间范围', function() {
 
     var result = get_integer_interval(min, max);
     expect(result).toEqual(collection);
