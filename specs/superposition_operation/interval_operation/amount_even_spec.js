@@ -1,6 +1,6 @@
 'use strict';
 
-var amount_even = require("../../practices/superposition_operation/interval_arithmetic/amount_even.js");
+var amount_even = require("../../practices/superposition_operation/interval_operation/amount_even.js");
 
 describe('amount_even', function() {
 
