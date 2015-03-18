@@ -8,7 +8,7 @@ describe('hybrid_operation_to_uneven', function() {
 
   it('每一个奇数*3+2', function() {
 
-    var result = hybrid_operation(collection);
+    var result = hybrid_operation_to_uneven(collection);
 
     expect(result).toEqual([5,17,35,203]);
   })
