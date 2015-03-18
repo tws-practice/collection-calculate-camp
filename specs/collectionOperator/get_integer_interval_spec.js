@@ -1,6 +1,6 @@
 'use strict';
 
-var get_integer_interval = require('../../practices/reduce/get_integer_interval_spec.js');
+var get_integer_interval = require('../../practices/reduce/get_integer_interval.js');
 
 describe('get_integer_interval', function () {
 
@@ -10,12 +10,12 @@ describe('get_integer_interval', function () {
   it('', function() {
 
     var result = get_integer_interval(1, 5);
-    expect(result).toEqual(collection);
+    expect(result).toEqual(collection_a);
   });
 
   it('选出给定数字集合元素的最大值', function() {
 
-    var result = get_integer_interval(1, 5);
-    expect(result).toEqual(collection);
+    var result = get_integer_interval(5, 1);
+    expect(result).toEqual(collection_b);
   });
 });
