@@ -1,3 +1,8 @@
-/**
- * Created by yfwang on 3/18/15.
- */
+'use strict';
+
+function choose_divisible_integer(collection_a, collection_b) {
+
+  //在这里写入代码
+}
+
+module.exports = choose_divisible_integer;
