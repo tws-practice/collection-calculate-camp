@@ -1,3 +1,5 @@
-/**
- * Created by fgcui on 3/19/15.
- */
+'use strict';
+var even_group_calculate_average = function(collection){
+
+};
+module.exports = even_group_calculate_average;
