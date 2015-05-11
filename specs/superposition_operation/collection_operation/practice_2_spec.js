@@ -10,6 +10,6 @@ describe('hybrid_operation_to_uneven', function() {
 
     var result = hybrid_operation_to_uneven(collection);
 
-    expect(result).toEqual([5,17,35,203]);
-  })
+    expect(result).toEqual([5,17,23,35,107,203]);
+  });
 });
