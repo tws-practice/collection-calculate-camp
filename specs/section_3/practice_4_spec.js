@@ -1,6 +1,8 @@
+'use strict';
+
 var create_updated_collection = require("../../practices/section_3/practice_4/practice.js");
 
-xdescribe('practice-3-4', function() {
+describe('practice-3-4', function() {
 
   var collection_a = [
     "a", "a", "a",
