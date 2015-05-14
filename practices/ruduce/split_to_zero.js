@@ -1,7 +1,7 @@
 'use strict';
 
-function collect_max_number(number) {
+function spilt_to_zero(number, interval) {
   //在这里写入代码
 }
 
-module.exports = collect_max_number;
+module.exports = spilt_to_zero;
