@@ -1,6 +1,8 @@
+'use strict';
+
 var collect_same_elements = require("../../practices/section_1/practice_2/practice.js");
 
-xdescribe('practice-1-2', function() {
+describe('practice-1-2', function() {
 
   var collection_a = ["a", "e", "h", "t", "f", "c", "g", "b", "d"];
   var collection_b = [["a", "d", "e", "f"]];
