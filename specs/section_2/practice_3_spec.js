@@ -23,7 +23,7 @@ xdescribe('practice-2-3', function() {
       {name: "a", summary: 3},
       {name: "e", summary: 7},
       {name: "h", summary: 11},
-      {name: "t", summary: 20},
+      {name: "t", summary: 19},
       {name: "f", summary: 9},
       {name: "c", summary: 8},
       {name: "g", summary: 7},
