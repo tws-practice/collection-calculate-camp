@@ -1,7 +1,7 @@
 'use strict';
 var even_group_calculate_average = require('../../../../practices/superposition_operation/own_elements_operation/subscript_is_even/even_group_calculate_average.js');
 
-describe('even_group_calculate_average', function() {
+ddescribe('even_group_calculate_average', function() {
   var collection_a = [1, 2, 3, 4, 5, 6, 12, 454, 324, 21, 45, 644, 34, 56, 345, 570, 8, 4, 14];
   var collection_b = [1, 3, 5, 7, 33, 55, 31, 555, 777];
   var collection_c = [344, 256, 55, 777, 322, 180];
