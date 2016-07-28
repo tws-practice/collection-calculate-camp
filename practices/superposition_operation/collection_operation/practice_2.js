@@ -1,8 +1,16 @@
 'use strict';
 
 function hybrid_operation_to_uneven(collection) {
+  return _.chain(collection)
+    .filter((element)=>{
+      if(element%2!==0)
+      {
+        return element;
+      }
+    })
+    .map((element)=>{return element*3+2;})
+    .value();
 
-  //在这里写入代码
 }
 
 module.exports = hybrid_operation_to_uneven;
