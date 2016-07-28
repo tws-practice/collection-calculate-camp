@@ -1,5 +1,5 @@
 'use strict';
-
+let _=require('lodash');
 function average_to_letter(collection) {
   let a = _.chain(collection)
     .mean(collection)

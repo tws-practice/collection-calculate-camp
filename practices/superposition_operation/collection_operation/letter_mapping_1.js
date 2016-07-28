@@ -1,5 +1,5 @@
 'use strict';
-
+let _=require('lodash');
 function even_to_letter(collection) {
   return _.chain(collection)
     .map((element)=> {

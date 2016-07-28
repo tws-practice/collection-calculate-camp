@@ -1,5 +1,5 @@
 'use strict';
-
+let _=require('lodash');
 function hybrid_operation_to_uneven(collection) {
   return _.chain(collection)
     .filter((element)=> {
