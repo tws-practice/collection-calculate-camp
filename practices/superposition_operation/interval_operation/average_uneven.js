@@ -1,8 +1,14 @@
 'use strict';
 
 function average_uneven(collection) {
-
-  //在这里写入代码
+  return _.chain(collection)
+    .filter((element)=> {
+      if (element % 2 !== 0) {
+        return element;
+      }
+    })
+    .mean((element)=>element)
+    .value();
 }
 
 module.exports = average_uneven;
