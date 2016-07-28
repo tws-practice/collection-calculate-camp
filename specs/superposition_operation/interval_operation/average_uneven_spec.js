@@ -2,7 +2,7 @@
 
 var average_uneven = require("../../../practices/superposition_operation/interval_operation/average_uneven.js");
 
-describe('average_uneven', function() {
+ddescribe('average_uneven', function() {
 
   var collection = [1,2,3,4,5,6,7,8,9,10];
 

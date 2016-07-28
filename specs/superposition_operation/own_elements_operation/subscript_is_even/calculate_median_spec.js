@@ -1,7 +1,7 @@
 'use strict';
 var calculate_median = require('../../../../practices/superposition_operation/own_elements_operation/subscript_is_even/calculate_median.js');
 
-describe('calculate_median_spec', function() {
+ddescribe('calculate_median_spec', function() {
   var collection_a = [1, 2, 3, 4, 5, 6];
   var collection_b = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
