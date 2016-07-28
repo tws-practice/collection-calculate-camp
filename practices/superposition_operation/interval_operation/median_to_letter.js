@@ -1,5 +1,5 @@
 'use strict';
-
+let _=require('lodash');
 function median_to_letter(collection) {
   //let result;
   let length = collection.length;
