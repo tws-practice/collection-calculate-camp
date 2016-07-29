@@ -8,7 +8,7 @@ function median_to_letter(collection) {
     .value();
 
   let index = _.floor(value.length / 2);
-  let middle = value.length % 2 === 0 ? (value[_.floor(index)] + value[_.ceil(index)]) / 2 : value[index];
+  let middle = value.length % 2 === 0 ? _.ceil((value[index] + value[index - 1]) / 2 ) : value[index];
 
   let p = [];
   while (middle > 26) {
@@ -18,11 +18,11 @@ function median_to_letter(collection) {
   }
   p.push(middle);
 
-  return _.chain(p)
+  return _(p)
     .map(n => String.fromCharCode(n+96))
     .reverse()
-    .value()
     .join('');
 }
 
 module.exports = median_to_letter;
+

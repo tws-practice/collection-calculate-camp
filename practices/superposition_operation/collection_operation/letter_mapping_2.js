@@ -2,12 +2,11 @@
 let _ = require('lodash');
 
 function average_to_letter(collection) {
-  let average = _.chain(collection)
-    .mean()
-    .ceil()
-    .value();
-
-  return String.fromCharCode(average + 96);
+  return String.fromCharCode(_.chain(collection)
+      .mean()
+      .ceil()
+     +  96
+  );
 
 }
 

@@ -2,11 +2,9 @@
 
 let _ = require('lodash');
 function hybrid_operation(collection) {
-  let tmep =   _(collection)
+ return  _(collection)
     .map(n => n * 3 + 2)
-    .value();
-
-  return _.sum(tmep);
+    .sum();
 }
 
 module.exports = hybrid_operation;
