@@ -2,7 +2,7 @@
 
 var median_to_letter = require("../../../practices/superposition_operation/interval_operation/median_to_letter.js");
 
-ddescribe('median_to_letter', function() {
+describe('median_to_letter', function() {
 
   var collection = [20,21,22,23,24,25,26,27,28,29,
                     30,31,32,33,34,35,36,37,38,39,
