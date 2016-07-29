@@ -1,14 +1,11 @@
 'use strict';
-let _=require('lodash');
+let _ = require('lodash');
 function hybrid_operation_to_uneven(collection) {
-  let sum=_.chain(collection)
-    .filter((element)=>{
-      return element%2!==0;
-    }).map((element)=>{
-      return element*3+5;
-    }).sum().value();
-  return sum;
+  return _.chain(collection)
+    .filter(n=>n % 2 !== 0)
+    .map(n=>n * 3 + 5)
+    .sum()
+    .value();
 }
-
 module.exports = hybrid_operation_to_uneven;
 

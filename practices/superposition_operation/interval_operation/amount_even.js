@@ -1,11 +1,9 @@
 'use strict';
-let _=require('lodash');
+let _ = require('lodash');
 function amount_even(collection) {
-  let sum=_.chain(collection)
-    .filter((element)=>{
-      return element%2===0;
-    }).sum().value();
-  return sum;
+  return _.chain(collection)
+    .filter(n=>n % 2 === 0)
+    .sum()
+    .value();
 }
-
 module.exports = amount_even;

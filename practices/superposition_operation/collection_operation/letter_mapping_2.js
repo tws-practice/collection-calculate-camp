@@ -1,13 +1,10 @@
 'use strict';
 let _ = require('lodash');
 function average_to_letter(collection) {
-  let a =
-    _.chain(collection)
+  return String.fromCharCode(_.chain(collection)
       .mean()
-      .ceil().value();
-  let b = String.fromCharCode(a + 96);
-  return b;
+      .ceil()
+      .value() + 96);
 }
-
 module.exports = average_to_letter;
 
