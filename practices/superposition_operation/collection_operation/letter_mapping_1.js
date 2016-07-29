@@ -4,8 +4,7 @@ let _ =require('lodash');
 function even_to_letter(collection) {
   return _(collection)
     .filter(x=>x % 2 === 0)
-    .map(x=>x + 96)
-    .map(x=>String.fromCharCode(x))
+    .map(x=>String.fromCharCode(x+96))
     .value();
 }
 

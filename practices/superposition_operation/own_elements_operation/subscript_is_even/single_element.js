@@ -6,6 +6,12 @@ var single_element = function (collection) {
       return index % 2 === 1;
     })
     .value();
+  let unduplicate = _.uniq(value);
+  let unduplicateSum = _.sum(unduplicate);
+  let valuesum = _.sum(value);
+  let duplicateNum = (valuesum - unduplicateSum)/(value.length- unduplicate.length);
 
-};
+  return _.without(value,duplicateNum);
+
+}
 module.exports = single_element;
