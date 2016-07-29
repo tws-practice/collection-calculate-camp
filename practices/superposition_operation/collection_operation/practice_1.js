@@ -1,8 +1,12 @@
 'use strict';
-
+let _ =require("lodash");
 function hybrid_operation(collection) {
+      let add= _(collection)
+        .map((x=>x*3+2))
+        .value()
 
-  //在这里写入代码
+  return _.sum(add);
+
 }
 
 module.exports = hybrid_operation;
