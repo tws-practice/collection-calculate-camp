@@ -3,9 +3,9 @@
 let _ = require('lodash');
 
 function average_uneven(collection) {
-  let odds = _.filter(collection, x=>x%2===1);
-  let sum = _.sum(odds);
-  return sum/odds.length;
+  return _(collection)
+    .filter(x=>x%2===1)
+    .mean();
 }
 
 module.exports = average_uneven;

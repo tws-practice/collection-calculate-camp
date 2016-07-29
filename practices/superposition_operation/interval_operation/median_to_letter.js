@@ -3,21 +3,22 @@
 let _ = require('lodash');
 
 function _toCharNumber(charCode) {
-  ???
+  // TODO
+  return 0;
 }
 
 function median_to_letter(collection) {
-  let sorted = _.sortBy(collection);
-  if(sorted.length % 2 === 0) {
-    let m1 = collection[Math.floor(sorted.length/2-1)];
-    let m2 =  collection[Math.floor(sorted.length/2)];
-    let median = Math.ceil(_.mean([m1,m2]));
-    console.log(median);
-    return _toCharNumber(median);
-  } else {
-    let median = sorted[Math.floor(sorted.length/2)]
-    return _toCharNumber(median);
-  }
+  let median = _.chain(collection)
+    .sortBy()
+    .filter((item, index, all) => {
+      if(all.length%2===1) {
+        return index === (all.length-1)/2;
+      } else {
+        let expected = [all.length/2, all.length/2+1]
+        return expected.includes(index);
+      }
+    });
+  return _toCharNumber(median);
 }
 
 module.exports = median_to_letter;
