@@ -2,7 +2,7 @@
 
 var hybrid_operation = require("../../../practices/superposition_operation/collection_operation/practice_1.js");
 
-describe('hybrid_operation', function() {
+ddescribe('hybrid_operation', function() {
 
   var collection = [1,5,7,11,35,67];
 

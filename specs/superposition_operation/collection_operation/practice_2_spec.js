@@ -1,8 +1,7 @@
 'use strict';
-
 var hybrid_operation_to_uneven = require("../../../practices/superposition_operation/collection_operation/practice_2.js");
 
-describe('hybrid_operation_to_uneven', function() {
+ddescribe('hybrid_operation_to_uneven', function() {
 
   var collection = [1,5,7,12,11,35,54,67,70];
 
