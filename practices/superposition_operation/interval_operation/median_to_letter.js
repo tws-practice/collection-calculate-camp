@@ -3,16 +3,16 @@ let _ = require('lodash');
 function median_to_letter(collection) {
 
   //在这里写入代码
-   let result = [];
+  let result = [];
 
-  let value  = _(collection)
+  let middle = _.chain(collection)
     .sort()
-    .filter((item,index,items)=>{
-      var num = index*2-items.length;
-      return num==-2||num==-1||num==0;
+    .filter((item, index, items)=> {
+      var num = index * 2 - items.length;
+      return num == -2 || num == -1 || num == 0;
     })
-    .mean(_.sum(n=>n));
-  let middle = _.ceil(value);
+    .mean()
+    .ceil();
 
   while (middle) {
     result.push(middle % 26);
