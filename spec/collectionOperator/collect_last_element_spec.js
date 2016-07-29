@@ -2,7 +2,7 @@
 
 var collect_last_element = require('../../practices/collectionOperator/collect_last_element.js');
 
-describe('collect_last_element', function () {
+fdescribe('collect_last_element', function () {
 
   var collection = [1, 2, 3, 4, 5];
 
