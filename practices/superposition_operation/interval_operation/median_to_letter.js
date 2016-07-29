@@ -3,9 +3,9 @@ let _ = require('lodash');
 function median_to_letter(collection) {
   let num = collection.length % 2 !== 0 ? collection[(collection.length - 1) / 2] :
     _.chain(collection)
-      .sort()
+      .sortBy()
       .mean([collection[collection.length / 2], collection[collection.length / 2 - 1]])
-      .ceil((element)=> element)
+      .ceil()
       .value();
 
   let result = [];

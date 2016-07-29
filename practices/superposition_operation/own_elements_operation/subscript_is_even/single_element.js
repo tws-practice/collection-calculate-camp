@@ -6,7 +6,7 @@ var single_element = function (collection) {
         return element;
       }
     })
-    .uniq()
+    .xorBy()
     .value();
 };
 module.exports = single_element;
