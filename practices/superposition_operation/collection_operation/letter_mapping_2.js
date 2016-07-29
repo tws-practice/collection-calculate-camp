@@ -6,7 +6,8 @@ function average_to_letter(collection) {
   let diff = 'a'.charCodeAt(0) - 1;
   let average = _.chain(collection)
     .mean()
-    .ceil();
+    .ceil()
+    .value();
   return String.fromCharCode(average + diff);
 }
 
