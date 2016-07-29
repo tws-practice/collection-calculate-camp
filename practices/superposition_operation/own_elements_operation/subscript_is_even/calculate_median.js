@@ -3,7 +3,7 @@ let _ =require('lodash')
 var calculate_median = function(collection){
 
   let line = _.chain(collection)
-    .filter((item,index)=>{if(index%2!==0) return item})
+    .filter((item,index)=>index%2!==0)
     .value();
 
 

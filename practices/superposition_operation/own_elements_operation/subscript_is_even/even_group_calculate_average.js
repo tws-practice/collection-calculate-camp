@@ -2,13 +2,9 @@
 let _ = require('lodash');
 var even_group_calculate_average = function (collection) {
   let line = _.chain(collection)
-    .filter((item, index)=> {
-      if (index % 2 !== 0) return item
-    })
-    .filter((item)=> {
-      if (item % 2 == 0)
-        return item
-    })
+    .filter((item, index)=> (index % 2 !== 0)
+    )
+    .filter((item)=>item % 2 == 0)
     .value();
 
   if (line.length === 0) {

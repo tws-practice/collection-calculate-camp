@@ -1,10 +1,11 @@
 'use strict';
 let _ = require('lodash')
 function amount_even(collection) {
-return _.sum (_(collection)
+return  _.chain(collection)
   .filter(x=>x%2===0)
-  .value()
-)
+  .sum()
+  .value();
+
 
 
   //在这里写入代码
