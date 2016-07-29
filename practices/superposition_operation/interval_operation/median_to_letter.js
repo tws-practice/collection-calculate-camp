@@ -8,6 +8,8 @@ function median_to_letter(collection) {
   let c = String.fromCharCode("a".charCodeAt() + a-1);
   let d = String.fromCharCode("a".charCodeAt() + b-1);
   return c+d;
+
+
 }
 
 module.exports = median_to_letter;
