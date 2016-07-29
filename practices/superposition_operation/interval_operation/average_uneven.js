@@ -2,7 +2,7 @@
 let _=require('lodash');
 function average_uneven(collection) {
     return _.chain(collection)
-        .filter(x=>x%2!==0)
+        .filter(x=>x%2===1)
         .mean()
         .value();
 }

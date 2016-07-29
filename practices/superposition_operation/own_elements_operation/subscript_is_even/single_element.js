@@ -8,7 +8,8 @@ var single_element = function(collection){
                 return element;
             }
         })
-           .union()
+      //.uniqBy()
+           //.without()
            .value();
     };
 module.exports = single_element;
