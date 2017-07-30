@@ -2,7 +2,7 @@
 
 var even_to_letter = require("../../../practices/superposition_operation/collection_operation/letter_mapping_1.js");
 
-describe('even_to_letter', function() {
+ddescribe('even_to_letter', function() {
 
   var collection = [1,2,3,4,5,6,7,8,9,10];
 
@@ -13,3 +13,4 @@ describe('even_to_letter', function() {
     expect(result).toEqual(['b','d','f','h','j']);
   })
 });
+  
