@@ -1,8 +1,11 @@
 'use strict';
 
-function average_uneven(collection) {
+let _ = require('lodash');
 
-  //在这里写入代码
+function average_uneven(collection) {
+  return _(collection)
+    .remove(n => n % 2 === 1)
+    .mean();
 }
 
 module.exports = average_uneven;
