@@ -1,7 +1,7 @@
 {
   "scripts": {
     "test": "jasmine-node --verbose specs",
-    "test-single": "jasmine-node --verbose $file"
+    "test-single": "jasmine-node --verbose "
   },
   "dependencies": {
     "jasmine-node": "1.14.5"
