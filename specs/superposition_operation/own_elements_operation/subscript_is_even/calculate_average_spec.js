@@ -1,4 +1,5 @@
 'use strict';
+let _ = require('lodash');
 var calculate_average = require('../../../../practices/superposition_operation/own_elements_operation/subscript_is_even/calculate_average.js');
 
 describe('calculate_average_spec', function() {
