@@ -4,6 +4,7 @@
     "test-single": "jasmine-node --verbose "
   },
   "dependencies": {
-    "jasmine-node": "1.14.5"
+    "jasmine-node": "1.14.5",
+    "lodash": "^4.14.0"
   }
 }
