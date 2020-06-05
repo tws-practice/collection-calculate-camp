@@ -1,8 +1,12 @@
 'use strict';
 
-function hybrid_operation_to_uneven(collection) {
+let _ = require('lodash');
 
-  //在这里写入代码
+function hybrid_operation_to_uneven(collection) {
+  return _(collection)
+    .filter(x => x%2==1)
+    .map(x => x*3+2)
+    .value();
 }
 
 module.exports = hybrid_operation_to_uneven;
